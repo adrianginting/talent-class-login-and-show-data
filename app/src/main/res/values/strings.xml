@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Talent Class Login and Show Data</string>
+    <string name="description">Logo</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="major">Major</string>
+    <string name="semester">Semester</string>
+    <string name="login">Login</string>
+</resources>

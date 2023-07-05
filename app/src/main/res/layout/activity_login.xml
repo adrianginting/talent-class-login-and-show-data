@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_logo_talenthub"
+        android:contentDescription="@string/description" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your data" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress"
+        android:imeOptions="actionNext"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/major"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/semester"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
